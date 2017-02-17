@@ -28,7 +28,6 @@ const todo = (state, action) => {
             return Object.assign({}, state, {
                 completed: !state.completed
             })
-
         default:
             return state
     }
@@ -49,7 +48,6 @@ const todos = (state = [], action) => {
             return state
     }
 }
-
 
 
 const todoApp = combineReducers ({
